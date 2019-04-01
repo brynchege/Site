@@ -10,7 +10,8 @@ class Article(models.Model):
 
 
 def __str__(self):
-     return self.titlepython
+    return self.titlepython
+
 
 def snippet(self):
-    return self.body[:8]
+    return self.body[:1] + "..."
